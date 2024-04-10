@@ -10,7 +10,8 @@ import {CurrencyPipe, NgForOf} from "@angular/common";
     CurrencyPipe,
     NgForOf
   ],
-  templateUrl: './product-list.component.html',
+  templateUrl: './product-list-table.component.html',
+  // templateUrl: './product-list.component.html',
   styleUrl: './product-list.component.css'
 })
 export class ProductListComponent implements OnInit {
