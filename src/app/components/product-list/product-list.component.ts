@@ -1,16 +1,18 @@
 import {Component, OnInit} from '@angular/core';
 import {ProductService} from "../../services/product.service";
 import {Product} from "../../common/product";
-import {CurrencyPipe, NgForOf} from "@angular/common";
+import {CurrencyPipe, NgForOf, NgOptimizedImage} from "@angular/common";
 
 @Component({
   selector: 'app-product-list',
   standalone: true,
   imports: [
     CurrencyPipe,
-    NgForOf
+    NgForOf,
+    NgOptimizedImage
   ],
-  templateUrl: './product-list-table.component.html',
+  templateUrl: './product-list-grid.component.html',
+  // templateUrl: './product-list-table.component.html',
   // templateUrl: './product-list.component.html',
   styleUrl: './product-list.component.css'
 })
