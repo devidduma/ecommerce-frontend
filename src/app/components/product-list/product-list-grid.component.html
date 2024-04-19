@@ -42,6 +42,15 @@
                                   (pageChange)="listProducts()">
                   </ngb-pagination>
                 </div>
+                <div class="col-md-3 mt-2" style="text-align: right;">
+                  <span class="mr-2">Page Size</span>
+                  <select #myPageSelect (change)="updatePageSize(myPageSelect.value)">
+                    <option selected="true">8</option>
+                    <option>16</option>
+                    <option>32</option>
+                    <option>64</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
