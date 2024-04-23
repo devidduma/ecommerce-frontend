@@ -48,5 +48,4 @@ export class ProductDetailsComponent {
     this.cartService.addToCart(theCartItem);
   }
 
-
 }
