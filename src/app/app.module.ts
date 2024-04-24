@@ -5,6 +5,8 @@ import {HttpClientModule} from "@angular/common/http";
 import {ProductService} from "./services/product.service";
 import {RouterModule} from "@angular/router";
 import {routes} from "./app.routes";
+import {AppComponent} from "./app.component";
+import {ReactiveFormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -14,7 +16,8 @@ import {routes} from "./app.routes";
     CommonModule,
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    ReactiveFormsModule
   ],
   providers: [
     ProductService
