@@ -86,6 +86,15 @@
                     {{ country.name }}
                   </option>
                 </select>
+
+                <div *ngIf="shippingAddressCountry.invalid && (shippingAddressCountry.dirty || shippingAddressCountry.touched)" class="alert alert-danger">
+
+                  <div *ngIf="checkRequired(this.shippingAddressCountry)">
+                    Country is required
+                  </div>
+
+                </div>
+
               </div>
             </div>
           </div>
@@ -95,6 +104,13 @@
             <div class="col-md-9">
               <div class="input-space">
                 <input formControlName="street" type="text">
+
+                <div *ngIf="shippingAddressStreet.invalid && (shippingAddressStreet.dirty || shippingAddressStreet.touched)" class="alert alert-danger">
+                  <div *ngIf="checkRequired(this.shippingAddressStreet) || ">
+                    Country is required
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
