@@ -262,4 +262,9 @@ export class CheckoutComponent implements OnInit {
     let errors = abstractControl!.errors!;
     return errors['pattern'];
   }
+
+  checkNotOnlyWhitespace(abstractControl: AbstractControl) {
+    let errors = abstractControl!.errors!;
+    return errors['notOnlyWhitespace'];
+  }
 }
