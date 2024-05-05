@@ -320,7 +320,7 @@ export class CheckoutComponent implements OnInit {
 
   checkMinLength(abstractControl: AbstractControl) {
     let errors = abstractControl!.errors!;
-    return errors['minLength'];
+    return errors['minlength'];
   }
 
   checkPattern(abstractControl: AbstractControl) {
