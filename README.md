@@ -1,27 +1,37 @@
-# EcommerceFrontend
+# Ecommerce Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+E-Commerce application frontend for online shopping of books, coffee mugs, mouse pads and luggage tags.
 
-## Development server
+## Presentation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+| Homepage                                                 | Search bar for products                                   | 
+|----------------------------------------------------------|-----------------------------------------------------------|
+| ![Homepage](src/assets/images/readme/ecommercepres1.PNG) | ![SearchBar](src/assets/images/readme/ecommercepres3.PNG) |
 
-## Code scaffolding
+| Product categories                                                | Product categories                                             | 
+|-------------------------------------------------------------------|----------------------------------------------------------------|
+| ![ProductCategories](src/assets/images/readme/ecommercepres4.PNG) | ![ProductDetails](src/assets/images/readme/ecommercepres5.PNG) |
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+| Shopping cart                                                | Shopping cart                                                | 
+|--------------------------------------------------------------|--------------------------------------------------------------|
+| ![ShoppingCart](src/assets/images/readme/ecommercepres6.PNG) | ![ShoppingCart](src/assets/images/readme/ecommercepres7.PNG) |
 
-## Build
+| Pagination support                                                | Pagination support                                                | 
+|-------------------------------------------------------------------|-------------------------------------------------------------------|
+| ![PaginationSupport](src/assets/images/readme/ecommercepres8.PNG) | ![PaginationSupport](src/assets/images/readme/ecommercepres9.PNG) |
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+| Product details                                              | Checkout form - empty                                         | 
+|--------------------------------------------------------------|---------------------------------------------------------------|
+| ![CheckoutForm](src/assets/images/readme/ecommercepres2.PNG) | ![CheckoutForm](src/assets/images/readme/ecommercepres10.PNG) |
 
-## Running unit tests
+| Checkout form - required validator                            | Checkout form - 2 characters long validator                   | 
+|---------------------------------------------------------------|---------------------------------------------------------------|
+| ![CheckoutForm](src/assets/images/readme/ecommercepres11.PNG) | ![CheckoutForm](src/assets/images/readme/ecommercepres12.PNG) |
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+| Checkout form - filled                                        | Checkout form - purchase order received                       | 
+|---------------------------------------------------------------|---------------------------------------------------------------|
+| ![CheckoutForm](src/assets/images/readme/ecommercepres13.PNG) | ![CheckoutForm](src/assets/images/readme/ecommercepres14.PNG) |
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+| Order saved in database                                       | Shopping cart is empty                                        | 
+|---------------------------------------------------------------|---------------------------------------------------------------|
+| ![CheckoutForm](src/assets/images/readme/ecommercepres15.PNG) | ![CheckoutForm](src/assets/images/readme/ecommercepres16.PNG) |
