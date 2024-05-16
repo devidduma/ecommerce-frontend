@@ -1,4 +1,4 @@
-# Ecommerce Frontend
+# E-Commerce Frontend
 
 E-Commerce application frontend for online shopping of books, coffee mugs, mouse pads and luggage tags.
 
